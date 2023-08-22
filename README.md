@@ -9,3 +9,7 @@ Additionally, the Jewelry Shop Manufacturing Assistant provides valuable insight
 The user-friendly interface of the app ensures a seamless experience, allowing you to navigate effortlessly between different functionalities. Whether you're a seasoned jewelry shop owner or new to the industry, the intuitive design ensures that you can quickly adapt to and leverage the app's capabilities.
 
 In summary, the Jewelry Shop Manufacturing Assistant is a powerful tool specifically designed to revolutionize the day-to-day manufacturing processes of jewelry businesses. With its streamlined order management, intelligent stock alerts, and comprehensive analytics, this ReactJS web application empowers you to efficiently oversee your operations, enhance productivity, and make data-driven decisions. Stay ahead of the competition and take your jewelry business to new heights with the Jewelry Shop Manufacturing Assistant.
+
+
+use npm start to deploy the project
+the username: user and password : user 
