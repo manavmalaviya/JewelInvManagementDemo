@@ -9,7 +9,7 @@ import './Manufacturing.css'
 import { Link } from "react-router-dom";
 
 const ImportData = (props) => {
-    const url="https://jewelry-mnf-backend.vercel.app"
+    const url="https://jewel-inv-management-backend-demo.vercel.app/"
     const [allowedList, setAllowedList] = useState([])
     const [allowedListSilver, setAllowedListSilver] = useState([])
     const [allowedListStone, setAllowedListStone] = useState([])

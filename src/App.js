@@ -46,7 +46,7 @@ function App() {
   const [isAdmin, setIsAdmin] = useState(false)
   const [isLoading, setIsLoading] = useState(true); // Initialize loading state
 
-  const url = "https://jewelry-mnf-backend.vercel.app"
+  const url = "https://jewel-inv-management-backend-demo.vercel.app/"
 
   useEffect(() => {
     // Simulate a delay of 2 seconds
