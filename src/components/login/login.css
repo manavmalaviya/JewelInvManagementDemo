@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #2B2B2B;
+}
+
+.loginform-wrapper {
+  background-color: #171010;
+  padding: 60px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transform: scale(1.1);
+  animation: fadeInScale 0.5s ease-in-out;
+}
+
+@keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.loginform-title {
+  color: white;
+  font-size: 26px;
+  margin-bottom: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.loginform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginform-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px; /* Adjust margin */
+}
+
+.loginform-field label {
+  color: white;
+  font-weight: 400;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.loginInputfield {
+  color: #31313f;
+}
+
+.loginform-field input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    background-color: #423F3E; 
+    caret-color: #ffffff;
+    color: white;
+  }
+  
+  .loginform-field input:focus {
+    outline: none;
+    border: 1px solid white;
+  }
+
+.submit-button {
+  background-color: #ffffff;
+  color: black;
+  padding: 10px;
+  width: fit-content; 
+  
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  font-size: 14px; /* Adjust font size */
+}
+
+.submit-button:hover {
+  background-color: rgb(162, 163, 219);
+  transform: scale(1.05);
+}

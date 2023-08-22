@@ -1,0 +1,65 @@
+.toColumnMnf{
+    justify-content: flex;
+    flex-direction: column;
+    margin:1vw 0;
+    flex-wrap: wrap;
+}
+
+.toRowMnf{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+.mainContent .ui.form .ui.dropdown {
+    /* margin-top: 1rem; */
+    min-width: 110px;
+    width: 15vw;
+}
+
+.mainContent .ui.form .toRowMnf.metal  {
+    justify-content: space-around;
+    
+}
+.mainContent .ui.form .toRowMnf.total  {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.mainContent .ui.form .toRowMnfExtended  {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    margin-left:6.5vw;
+    align-items: center;
+    
+}
+
+.includeStone{
+    display: flex;
+    align-items: center;
+    margin: 1vw 0;
+}
+.alloyRow{
+    margin-left: 8vw;
+}
+
+.alloyContainer{
+    display: flex;
+    margin: 1vw 0;
+}
+.ui.bottom.attached.segment.stoneOrder,
+.ui.bottom.attached.segment.mnfOrder{
+    height: 50vw;
+    overflow-y: scroll;
+}
+
+.indexNumber{
+    width: 50px;
+    height: 50px;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}

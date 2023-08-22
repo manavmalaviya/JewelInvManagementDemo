@@ -1,0 +1,104 @@
+.sidecontentbar {
+  background: #17121f;
+  width: 4vw;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidecontentbar .ui.image {
+  margin: 2.5vh auto;
+  width: 50%;
+}
+
+.sidecontentbar .ui.menu {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sidecontentbar .ui.menu .hoverIcon {
+  display: inline-block;
+  position: relative; /* Add this line to prevent flickering */
+   /* align-items: center; */
+}
+
+.sidecontentbar .ui.menu .item {
+  color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.sidecontentbar .ui.menu .item .icon.receipt {
+  width:1.1vw
+}
+
+.sidecontentbar .ui.menu .item .icon {
+  position: absolute;
+  color: white;
+  opacity: 1;
+  display: inline-block;
+  font-size:1.1vw ;
+
+  
+}
+.sidecontentbar .ui.menu .item.active .icon {
+  display: none;
+  opacity: 0;
+}
+
+.sidecontentbar .ui.menu .item .iconhover {
+  opacity: 0;
+  margin: 0;
+ 
+  transition: transform 0.3s ease-out; 
+  font-size: 20px;
+  color: black; 
+}
+
+.sidecontentbar .ui.menu .item.active .iconhover {
+  position: relative;
+  display: block;
+  opacity: 1;
+}
+
+.sidecontentbar .ui.menu .hoverIcon .tooltiptext {
+  width: max-content;
+  padding: 1vh 1.5vw;
+  background: #1e1a24;
+  color: white;
+  border-radius: 1.7em;
+  position: absolute;
+  transform: translate(
+    -50%,
+    -50%
+  ); 
+  top: 50%;
+  left: 9.5vw;
+  display: none;
+  transition: all 0.3s ease-out; 
+}
+.sidecontentbar .ui.menu .hoverIcon .tooltiptext.home,
+.sidecontentbar .ui.menu .hoverIcon .tooltiptext.iventory,
+.sidecontentbar .ui.menu .hoverIcon .tooltiptext.import {
+  left: 7.5vw;
+}
+.sidecontentbar .ui.menu .hoverIcon .tooltiptext.attrlist {
+  left: 8vw;
+}
+
+.sidecontentbar .ui.menu .hoverIcon:hover .tooltiptext {
+  display: block;
+  opacity: 0.8;
+}
+.sidecontentbar .ui.menu .hoverIcon .tooltiptext:hover {
+  display: none;
+  cursor: default;
+}

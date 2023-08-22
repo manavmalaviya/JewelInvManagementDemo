@@ -1,0 +1,32 @@
+.ui.two.button {
+  background-color: white;
+  height: 100vh;
+}
+
+.scrollable-table {
+  max-height: 85vh;
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.table-container {
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.tableContent {
+  display: table; /* Make the tbody element behave like a table */
+  table-layout: fixed; /* Fix table layout to prevent column width changes */
+  width: 100%; /* Ensure full-width table */
+  max-height: 60vh;
+  overflow-y: scroll;
+}
+
+.sticky-td {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.ui.bottom.attached.segment {
+  height: 90vh;
+}

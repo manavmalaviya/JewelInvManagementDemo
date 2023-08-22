@@ -1,0 +1,137 @@
+.chart {
+  width: 600px !important;
+  /* height: 300px !important; */
+}
+
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+.card {
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 2vw;
+ 
+  margin-bottom: 20px;
+}
+
+.ui.statistic>.label{
+  font-family:inherit;
+  font-weight: 600;
+}
+.ui.statistic>.label .index{
+  font-weight: 700 !important;
+}
+.ui.statistic>.label.content{
+  font-family:inherit;
+  font-weight: 500;
+}
+.card.graph {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card.graph .loss-cards {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.card.graph .small-card {
+  width: 26%;
+  height: fit-content;
+}
+
+.card.graph canvas {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+.card.lessstone{
+  /* height: fit-content; */
+  width: 100%;
+  max-height: 700px;
+}
+.small-card {
+  background-color: white;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 15px;
+  
+}
+.loss-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.topAnanlyisBar{
+  display: flex;
+  width: 100%;
+}
+.card.lessStock {
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  width: 600px;
+  height: fit-content;
+  max-height: 400px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+
+.card.lessstone .lessStoneStock {
+  width: 100%;
+  max-height: 600px;
+  overflow-y: scroll;
+}
+
+.top-chart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.top-chart > div {
+  width: 48%;
+}
+.stone-options {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ui.mini.statistic {
+  width: 100%;
+}
+.label {
+  color: red;
+  /* Add any other styles for the warning */
+}
+.btmContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+/* Add any additional styling as needed */
+.itemdesc {
+  font-size: 14px;
+  display: flex;
+}
+.itemqty {
+  font-size: 16px;
+}
+
+.custom-dropdown {
+  margin-top: 1rem !important;
+  min-width: 15rem !important;
+  /* width: 10px !important; */
+}
+
+.plusicon {
+  cursor: pointer;
+}

@@ -1,0 +1,44 @@
+.ui.inverted.segment {
+    margin: 1vw;
+}
+.ui.inverted.segment .ui.list .item{
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+}
+.ui.inverted.segment .ui.list .item .icon{
+    margin-left: auto;
+}
+.ui.inverted.segment .ui.list .item .icon i{
+    margin-right: 1vw;
+    cursor: pointer;
+}
+.ui.inverted.segment .ui.list .item .content{
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.ui.inverted.segment .ui.list .item .content .atributes{
+    
+    /* padding:0.2vw 0 ;  */
+    margin-left:2vw ;   
+}
+
+.vl {
+    border-left: 2px solid rgba(2, 180, 2, 0.568);
+    border-radius: 2px;
+    margin-left: 2vw;
+    height:3vh;
+  }
+
+.icon.trash{
+    color: black;
+}
+
+.icon.trash:hover{
+    color: black;
+    cursor: pointer;
+}
+  
+

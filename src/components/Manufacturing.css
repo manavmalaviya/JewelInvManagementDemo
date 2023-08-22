@@ -1,0 +1,304 @@
+.mainContent .buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2vw;
+}
+
+.download-button {
+  display: inline-block;
+  width: fit-content;
+  padding: 0.5rem 0.5rem;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.maincontent .ui.two.field.mnfOrder .ui.top.attached.menu>.item {
+  cursor: pointer;
+}
+
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  animation: popupAnimation 0.3s ease-in-out;
+}
+@keyframes popupAnimation {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+.popup-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9996;
+  animation: fadeBackgroundAnimation 0.3s ease-in-out;
+}
+
+.download-interface {
+  position: relative;
+  z-index: 9997;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Ensure it's below the popup */
+}
+
+
+@keyframes fadeBackgroundAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.download-button > .text {
+  display: inline-block;
+  position: relative;
+  right: 0.8rem;
+  transition: 0.3s ease-in-out;
+}
+
+.download-button:hover > .text {
+  transition: transform 0.3s ease-in-out;
+  /* transform: translateX(100%); */
+  right: 0rem;
+  transition: 0.3s ease-in-out;
+}
+
+.download-button:hover > .icon {
+  /* display: inline-block; */
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.download-button .icon {
+  /* display: none; */
+  position: relative;
+  left: -1.6rem;
+  transition: transform 0.3s ease-in-out;
+}
+.download-button:hover {
+  color: #fff;
+  text-decoration: none;
+  width: calc();
+  background-color: #45a049;
+}
+.mainContent .buttonContainer .addButton {
+  width: 5rem;
+  cursor: pointer;
+  background-color: #f2711c;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  border-radius: 3px;
+  padding: 0.5vw;
+}
+.mainContent .buttonContainer .addButton:hover {
+  background-color: #ee7e33;
+}
+
+.ui.button {
+  display: block;
+  background-color: rgba(245, 245, 245, 0.466);
+}
+
+.ui.button:hover {
+  background-color: rgba(245, 245, 245, 0.466);
+  cursor: pointer;
+}
+
+/* Pending and Completed List CSS */
+
+.ui.inverted.segment {
+  margin: 1vw;
+}
+
+.ui.inverted.segment .ui.list .headingContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.ui.inverted.segment .ui.list .dateContainer {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ui.inverted.segment .ui.list .iconContainer > i {
+  cursor: pointer;
+  margin-right: 0.5vw;
+  color: rgba(245, 245, 245, 0.527);
+}
+.ui.inverted.segment .ui.list .iconContainer > i:hover {
+  cursor: pointer;
+  color: white;
+}
+.ui.inverted.segment .ui.list .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.ui.inverted.segment .ui.list .item .manufacturingOrder {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  cursor: default;
+  width: 100%;
+}
+.ui.inverted.segment .ui.list .item .manufacturingOrder .orderItems {
+  font-weight: 500;
+
+  /* padding:0.2vw 0 ;  */
+  margin-left: 2vw;
+}
+.ui.inverted.segment .ui.list .item .manufacturingOrder .ui.fitted.divider {
+  width: inherit;
+  margin: 10px 0;
+  /* border:3px solid linear-gradient(to right, #636d7b, #4f5762, #3d4349, #2b2f32, #1b1c1d);; */
+  border-radius: 5px;
+}
+.ui.inverted.segment .ui.list .item .manufacturingOrder .header {
+  margin-bottom: 0vw;
+}
+.ui.inverted.segment .ui.list .item .manufacturingOrder .container,
+.totalContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ui.inverted.segment .ui.list .item .manufacturingOrder,
+.totalContainer,
+.weightContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon.trash,
+.icon.edit {
+  color: black;
+}
+
+.icon.trash:hover,
+.icon.edit:hover {
+  color: black;
+  cursor: pointer;
+}
+
+/* Chnaged */
+.ui.inverted.segment .ui.list .header {
+  margin-bottom: 15px;
+}
+
+.dropdownoptions {
+  margin-top: 1rem;
+  margin: 5rem 2rem;
+}
+
+.downloadInputfields{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.download-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+.download-link {
+  display: inline-block;
+  width: fit-content;
+  padding: 0.5rem 0.5rem;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.dateContainer{
+  display: flex;
+}
+
+.date{
+  margin:0 1rem;
+}
+.download-link:hover {
+  color: #fff;
+  text-decoration: none;
+  width: calc();
+  background-color: #45a049;
+}
+
+/* ImportData css */
+.popup .download-interface .ui.button.optionBtn{
+  border: 0.4px solid rgb(66, 66, 66);
+  background-color: #ffffff;
+  margin: 1rem;
+
+}
+.popup .download-interface .ui.button.optionBtn:hover{
+  border: 0.4px solid rgb(37, 37, 37);
+
+}
+.popup .download-interface .btnContainer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.file-label {
+  display: inline-block;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.file-input {
+  display: none;
+}
+
+.file-uploader {
+  margin-bottom: 20px;
+}
+
+.file-uploader p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.download-interface.import {
+  width: 450px;
+  height: 250px;
+  justify-content: center;
+}

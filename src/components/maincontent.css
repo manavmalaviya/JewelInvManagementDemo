@@ -1,0 +1,139 @@
+body{
+    background-color: #ffffff;
+  
+}
+
+.mainContent{
+    width:96vw;
+    position: relative;
+    left: 4vw;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+    height: 100vh !important;
+    overflow-y: scroll;
+    
+}
+
+.mainContent .ui.form .ui.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    margin-left:"10vw"
+    /* align-items: center; */
+}
+.mainContent .ui.form .ui.form .field.two{
+    display: flex;
+}
+
+.mainContent .ui.form .ui.form .field.two .column{
+    display: flex;
+    flex-direction: column;
+}
+.mainContent  .row{
+    display: flex;
+
+
+}
+.mainContent .buttons{
+    margin-top: 2vw;
+    display: flex;
+    /* justify-content: flex-end; */
+    /* margin-right: 10vw; */
+
+}
+.mainContent  .buttons{
+    margin-top: 2vw;
+    display: flex;
+    /* justify-content: flex-end; */
+    /* margin-right: 10vw; */
+}
+
+/* 
+.mainContent .buttons .ui.button.blue{
+    display: flex;
+    align-items: center;
+    width: 5vw;
+    min-width: 70px;
+    max-width: 150px;
+    box-sizing: border-box;
+    padding: 0.5vw;
+    padding-left: 1vw;
+    margin-left: 10vw;
+    overflow: hidden;
+
+}
+
+.mainContent .buttons .ui.button.blue:hover>h4{
+    position: relative;
+    left: 0vw;
+    transition:  0.5s;
+}
+.mainContent  .buttons .ui.button.blue>h4{
+    position: relative;
+    left: 1vw;
+    transition:  0.5s;
+}
+.mainContent .buttons .ui.button.blue:hover>i{
+    
+   
+    transform: translateX(-200%);
+
+    transition: transform 0.3s;
+    
+}
+.mainContent  .buttons .ui.button.blue>i{
+    font-size: 1.2vw;
+    position: relative;
+    right: -3vw;
+    margin-left: 1.5vw;
+  
+    transition: all 0.3s;
+   
+
+} */
+
+
+
+.mainContent .ui.form .multipleSelectionEntry{
+    
+   display: flex;
+   width: fit-content;
+   height: fit-content;
+   /* align-items: center; */
+
+   /* background-color: */
+   background-color: rgb(61, 60, 60);
+   padding: 0.5rem;
+   color: #d6d6d6;
+   border-radius: 5px;
+   margin: 2px;
+}
+
+.mainContent .ui.form .toRowAttr{
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+
+}
+
+
+.mainContent .ui.form .multipleSelectionField{
+    margin-left: 8vw;
+    display: flex;
+}
+ 
+.mainContent .ui.form .toRowAttr .toColumnAttr{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+}
+
+
+.topborder{
+    border-top: 1px solid rgba(34,36,38,.1)
+}
+.ui.two.button:hover{
+    background-color: white;
+}

@@ -1,0 +1,41 @@
+.toColumnInv{
+    display: flex;
+    flex-direction: column;
+}
+
+.toRowInv{
+    display: flex;
+    /* margin-left: 5vw; */
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+    margin: 2rem;
+}
+
+.ui.bottom.attached.segment.invorders, .ui.two.button.invorders{
+    cursor: default;
+}
+.ui.bottom.attached.segment.invorders{
+    overflow-y: scroll;
+}
+.ui.top.attached.tabular.menu.invorders{
+    cursor: pointer;
+}
+
+
+.toRowInv.stone{
+    display: flex;
+    justify-content: space-around;
+}
+.toRowInv.Runner{
+    display: flex;
+    margin-left: 5vw;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+}
+.toRowInv.melt{
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+    /* justify-content: space-around; */
+}
