@@ -14,7 +14,7 @@ const Authentication = (props) => {
     const [password, setPassword] = useState('');
     const [userDetails, setUserDetails] = useState('')
 
-    const url="https://jewel-inv-management-backend-demo.vercel.app/"
+    const url="https://jewel-inv-management-backend-demo.vercel.app"
 
     const [encryptedCookie, setEncryptedCookie] = useState('')
     // const navigate = useNavigate()

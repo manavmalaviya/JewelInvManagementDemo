@@ -15,7 +15,7 @@ const Manufacturing = (props) => {
 
   const [activeMenu, setActiveMenu] = useState('Pending');
   const [subActiveMenu, setSubActiveMenu] = useState('Metal');
-  const url = "https://jewel-inv-management-backend-demo.vercel.app/";
+  const url = "https://jewel-inv-management-backend-demo.vercel.app";
 
   const inputEl = useRef("");
 
